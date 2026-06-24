@@ -1,7 +1,7 @@
 .navigation {
     &__btn{
         display: none;
-        @include respond(tab-port) {
+        @include respond(compact-menu) {
             display: block;
             height: 2rem;
             width: 2rem;
@@ -19,7 +19,7 @@
         display: flex;
         padding-right: 5vw;
         flex-direction: row;
-        @include respond(tab-port){
+        @include respond(compact-menu){
             flex-direction: column;
         }
     }
@@ -48,7 +48,7 @@
 }
 
 // FOR MOBILE AND TABLET VIEWS ICON
-@include respond(tab-port) {
+@include respond(compact-menu) {
     .navigation{
         &__icon {
             position: relative;

@@ -111,7 +111,8 @@ body {
     }
 }
 
-.section-services{
+.section-services,
+.section-certification{
     background-color: $color-beige-light;
     clip-path: polygon(0 0, 100% 15vh, 100% 100%, 0 100%);
     @include respond(tab-port){

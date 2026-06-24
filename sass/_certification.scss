@@ -1,0 +1,68 @@
+.certification{
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+.certification-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+        transition: transform 0.2s ease;
+
+        &:hover {
+            transform: translateY(-4px);
+        }
+
+        &__img{
+            width: 100%;
+            max-width: 100px;
+            max-height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title{
+            margin-bottom: 1rem;
+          
+        }
+
+        &__badge{
+            // position: absolute;
+            // top: -20px;
+            // right: 0;
+            display: block;
+            margin: 0.5rem 0 1rem;
+            padding: 0.25rem 0.65rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #e91f4f;
+            border-radius: 999px;
+    }
+
+    .certification-badge {
+        display: inline-block;
+        margin-top: 0.75rem;
+        padding: 0.35rem 1rem;
+
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+
+        color: #fff;
+        background: #e91f4f;
+
+        border-radius: 20px;
+    }
+}
