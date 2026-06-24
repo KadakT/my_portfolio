@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css?v=0.1.css">
+        <link rel="stylesheet" href="css/style.css?v=0.2.css">
         <script src="js/jquery.min.js"></script>
         <title>Tatjana Kadak | Accessible Front-End Developer Portfolio</title>
         <link rel="icon" href="img/svg/logo.svg" type="image/x-icon"> 
@@ -38,6 +38,7 @@
                              <li class="navigation__item"><a href="#section-services" class="navigation__link">Services</a></li>
                              <li class="navigation__item"><a href="#section-projects" class="navigation__link">Projects</a></li>
                              <li class="navigation__item"><a href="#section-resume" class="navigation__link">Resume</a></li>
+                             <li class="navigation__item"><a href="#section-certification" class="navigation__link">Certifications</a></li>
                              <li class="navigation__item"><a href="#section-contact" class="navigation__link">Contact</a></li>
                          </ul>
                      </nav>
@@ -50,9 +51,9 @@
                     <div class="home__content">
                         <h1 class="heading-primary">
                             <span class="heading-primary--main">Hello, I'm <span class="heading--color-primary">Tatjana</span> </span>
-                            <span class="heading-primary--sub primary--underline">Web Developer</span>
+                            <span class="heading-primary--sub primary--underline">Front-End Developer specializing in Angular & Accessibility</span>
                         </h1>
-                        <P>Crafting accessible, user-focused digital experiences with clean and efficient code.</P>
+                        <P>Over 10 years of experience building accessible, scalable, and user-focused web applications with Angular and modern web technologies.</P>
                         <a href="#section-projects" class="btn">
                                My projects
                         </a>
@@ -78,9 +79,13 @@
                             </picture>
                         </div>
                         <div class="about__details">
-                            <div class="about__text">
+                            <div class="about__text u-margin-bottom-small">
                                 <p class="heading-3 u-margin-bottom-small heading--color-primary">Hi there...</p>
-                                <p>Experienced Web Developer specializing in accessibility and usability. I design and optimize front-end solutions that meet high standards for functionality and user experience. Passionate about building sustainable, user-first digital systems that align with business goals.</p>
+                                <p>Experienced Front-End Developer and Accessibility Specialist with over 10 years of experience in software development. Founder of TKWeb OÜ, specializing in Angular applications, accessibility consulting, and enterprise web solutions. Certified in Digital Accessibility (A4Q) and passionate about building inclusive, scalable, and user-focused digital products.</p>
+                            </div>
+                            <div class="about__text">
+                                <h3 class="heading-3 u-margin-bottom-small heading--color-primary">Freelance & Consulting</h3>
+                                <p>Through my company TKWeb OÜ, I provide front-end development, accessibility consulting, and technical support for businesses and agencies. I work with modern Angular applications, accessibility audits, WCAG compliance, and enterprise-scale web projects.</p>
                             </div>
                         </div>
                     </div>
@@ -118,7 +123,7 @@
                               <div class="skills-bar__title">
                                 <h4>TypeScript</h4>
                                 <span class="skills-bar__percent" id="typescript-percent">
-                                    <span class="sr-only">70 percent</span>
+                                    <span class="sr-only">90 percent</span>
                                 </span>
                               </div>
                               <div class="skills-bar__container">
@@ -130,7 +135,7 @@
                               <div class="skills-bar__title">
                                 <h4>Angular</h4>
                                 <span class="skills-bar__percent" id="angular-percent">
-                                    <span class="sr-only">80 percent</span>
+                                    <span class="sr-only">90 percent</span>
                                 </span>
                               </div>
                               <div class="skills-bar__container">
@@ -153,7 +158,7 @@
                                 <div class="skills-bar__title">
                                   <h4>Accessibility</h4>
                                   <span class="skills-bar__percent" id="accessibility-percent" >
-                                    <span class="sr-only">90 percent</span>
+                                    <span class="sr-only">95 percent</span>
                                   </span>
                                 </div>
                                 <div class="skills-bar__container">
@@ -190,7 +195,7 @@
                         <div class="services__item vertical-card">
                             <img class="vertical-card__img" src="img/svg/undraw_pair-programming.svg" alt="Concept art of collaborative coding or software development teamwork." class="img no-download" oncontextmenu="return false;" loading="lazy">
                             <div class="vertical-card__text">
-                                <h3 class="heading-3 vertical-card__tittle">Consultation & Development for Large Projects</h3>
+                                <h3 class="heading-3 vertical-card__tittle">Senior Angular Development & Consulting</h3>
                                 <p class="vertical-card__text">Need an experienced developer to join your large-scale Angular project? I bring senior-level expertise to support your team with component architecture, accessibility best practices, and clean, maintainable code. Whether it’s a long-term collaboration or short-term support, I’m ready to step in and help move your project forward.</p>
                             </div>
                         </div>
@@ -204,27 +209,38 @@
                         <h2 class="heading-2 u-margin-bottom-small">Projects</h2>
                     </div>
                   
-                    <p class="projects__text p--underline u-margin-bottom-medium">Here are a few sample projects I've created to showcase my skills in Angular, React, and responsive front-end development. Each project demonstrates a different aspect of my expertise—from accessibility and component architecture to clean design and performance optimization.</p>
+                    <p class="projects__text p--underline u-margin-bottom-medium">Here are a selection of projects showcasing my expertise in Angular development, accessibility, and responsive web design. Each project highlights different aspects of my work—from enterprise application development to modern business websites.</p>
                     <div class="projects__list">
                         <div class="projects__item">
                             <div class="card__content card">
-                                <h3 class="heading-3 card__tittle">Angular App</h3>
-                                <img class="card__img" src="img/angular.jpg" alt="Screenshot of an Angular-based meal planner app showing a recipe list, recipe details with an image, and buttons to edit or add to a shopping list." class="img no-download" oncontextmenu="return false;" loading="lazy">
-                                <p class="card__text">A feature-rich Angular application with a simple registration flow and persistent data storage. Users can save custom recipes to a database, create a daily meal plan, and generate a shopping list based on their selected meals — making it easy to organize and shop for ingredients efficiently.</p>
-                                <a href="#" class="project-link disabled external-link" aria-disabled="true" onclick="return false;">Angular Project link coming soon
-                                    <svg class="card__icon external-link__icon" aria-label="External link" role="img" >
-                                        <title>External link</title>
-                                        <use xlink:href="img/sprite.svg#icon-external-link"></use>
-                                    </svg>
-                                </a>
+                                <h3 class="heading-3 card__tittle">Meal Planner App</h3>
+                                <img class="card__img" src="img/meal_planner.jpg" alt="Screenshot of an Angular-based meal planner app showing a recipe list, recipe details with an image, and buttons to edit or add to a shopping list." class="img no-download" oncontextmenu="return false;" loading="lazy">
+                                <ul class="card__list u-margin-bottom-small">
+                                    <li>Angular + Node.js + MongoDB</li>
+                                    <li>JWT Authentication</li>
+                                    <li>Angular Signals</li>
+                                    <li>Angular Material</li>
+                                    <li>REST API</li>
+                                    <li>Responsive Design</li>
+                                </ul>
+                                <p class="card__text">A full-stack meal planning application featuring authentication, recipe management, shopping list creation, and a responsive user interface built with Angular and Node.js.</p>
+                                <p class="card__text">Source code and technical documentation are available upon request. Please get in touch for more information.</p>
+                                <a class="btn external-link" href="#section-contact">Contact for Source Code</a>
                             </div>
                         </div>
                         <div class="projects__item">
                             <div class="card__content card">
-                                <h3 class="heading-3 card__tittle">Landing Page</h3>
-                                <img class="card__img  no-download" srcset="img/coating_prtSc_tablet.jpg" alt="Screenshot of a clean landing page for Baltbau GmbH, featuring sections like 'Über Uns', services, and customer values with black, white, and yellow design." oncontextmenu="return false;" loading="lazy">
-                                <p class="card__text">A fully responsive, accessible landing page. Clean layout, semantic HTML, and performance-optimized assets.</p>
-                                <a class="btn external-link" href="https://www.coatingfactory.de" target="_blank" rel="noopener noreferrer">View Landing Page
+                                <h3 class="heading-3 card__tittle">Corporate Website</h3>
+                                <img class="card__img  no-download" srcset="img/coating_prtSc_tablet.jpg" alt="Screenshot of a clean Corporate Website for Baltbau GmbH, featuring sections like 'Über Uns', services, and customer values with black, white, and yellow design." oncontextmenu="return false;" loading="lazy">
+                                <ul class="card__list u-margin-bottom-small">
+                                    <li>HTML</li>
+                                    <li>SCSS</li>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                    <li>Responsive Design</li>
+                                </ul>
+                                <p class="card__text">A modern, responsive company website developed for an industrial coatings business. Designed with accessibility, performance, and user experience in mind, featuring custom layouts, project references, image galleries, and contact functionality.</p>
+                                <a class="btn external-link" href="https://www.coatingfactory.de" target="_blank" rel="noopener noreferrer">View Website
                                     <svg class="card__icon external-link__icon" aria-label="External link" role="img">    
                                         <title>External link</title>
                                         <use xlink:href="img/sprite.svg#icon-external-link"></use>
@@ -232,7 +248,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="projects__item">
+                        <!-- <div class="projects__item">
                             <div class="card__content card">
                                 <h3 class="heading-3 card__tittle">React App</h3>
                                 <img class="card__img" src="img/angular.jpg" alt="Placeholder for a React application demonstrating modern UI and component-based structure." class="img no-download" oncontextmenu="return false;" loading="lazy">
@@ -244,7 +260,7 @@
                                     </svg>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -257,6 +273,17 @@
                   <div class="timeline">
                     <div class="timeline__container timeline__container--right timeline__title work">
                         <h3>Work experience</h3>
+                    </div>
+                    <div class="timeline__container timeline__container--left">
+                        <div class="timeline__content">
+                            <h4 class="timeline__sub-title">Freelance Front-End Consultant – TKWeb OÜ</h4>
+                            <p class="timeline__date">October 2025 – Present</p>
+                            <p class="timeline__description">Angular application development<br>
+                                    Accessibility consulting and WCAG audits<br>
+                                    Landing page and business website development<br>
+                                    Node.js and API integration projects<br>
+                                    Technical consulting for enterprise clients</p>
+                        </div>
                     </div>
                     <div class="timeline__container timeline__container--right">
                         <div class="timeline__content">
@@ -314,6 +341,37 @@
                 </div>
             </section>
 
+            <section class="section-certification u-padding-bottom-medium u-padding-top-huge" id="section-certification">
+                <div class="certification container">
+                    <div class="heading__container">
+                        <h2 class="heading-2 u-margin-bottom-small">Certifications</h2>
+                    </div>
+                    <p class="certification__text p--underline u-margin-bottom-medium">Continuous learning and professional development are an important part of my career. These certifications reflect my commitment to building accessible, high-quality digital products and maintaining a broad understanding of technology and networking fundamentals.</p>
+                    <div class="certification__list">
+                        <div class="certification__item certification-card">
+                            <img class="certification-card__img" src="img/svg/accessibility-sign-language-solid-svgrepo-com.svg" alt="" class="img no-download" oncontextmenu="return false;" loading="lazy">
+                            <div class="certification-card__text">
+                                <h3 class="heading-3 certification-card__title">A4Q Certified Professional for Digital Accessibility
+                                    <span class="certification-card__badge">2025</span>
+                                </h3>
+                                <p class="certification-card__text">
+                                    <span class="certification-badge u-margin-bottom-small">Accessibility Specialist</span><br>
+                                    Professional certification covering WCAG standards, assistive technologies, inclusive design, and accessibility best practices.</p>
+                            </div>
+                        </div>
+                        <div class="certification__item certification-card">
+                            <img class="certification-card__img" src="img/svg/router-svgrepo-com.svg" alt="" class="img no-download" oncontextmenu="return false;" loading="lazy">
+                            <div class="certification-card__text">
+                                <h3 class="heading-3 certification-card__title">Cisco Network Administration Level 1
+                                    <span class="certification-card__badge">2012</span>
+                                </h3>
+                                <p class="certification-card__text">Foundation in networking, routing, switching, infrastructure, and troubleshooting through Cisco's networking curriculum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="section-contact" id="section-contact">
                 <div class="contact container u-padding-top-medium u-padding-bottom-medium">
                     <div class="heading__container">
@@ -361,7 +419,7 @@
         <footer>
             <div class="footer">
                 <p class="footer_copyright">
-                    Built by <a href="#" class="footer__link">Tatjna Kadak</a>. Copyright &copy; by Tatjana Kadak. 
+                    Built by <a href="#" class="footer__link">Tatjana Kadak</a>. Copyright &copy; by Tatjana Kadak. 
                 </p>
             </div>
         </footer>

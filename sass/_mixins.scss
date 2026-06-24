@@ -20,6 +20,7 @@ $breakpoint arguement choices:
 - phone
 - tab-port
 - tab-land
+- compact-menu
 - big-desktop
 */
 
@@ -29,6 +30,9 @@ $breakpoint arguement choices:
     }
     @if $breakpoint == tab-port {
         @media only screen and (max-width: 56.25em) { @content }; //900px
+    }
+    @if $breakpoint == compact-menu {
+        @media only screen and (max-width: 62.5em) { @content }; //1000px
     }
     @if $breakpoint == tab-land {
         @media only screen and (max-width: 75em) { @content }; //1200px
